@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.div1,.div2,.div3,.div4,.div5,.div6{
+    width: 300px;
+    height:200px;
+    background-color: blue;
+    border: solid gray 2px;
+}
+.div2,.div4{
+    display: block;
+    margin-top: 230px;
+    margin-left: 1200px;
+}
+.div6{
+    display: block;
+    margin-left: 1200px;
+    margin-top: 230px;
+}
+.div1{
+    position: relative;
+    animation-name:change;
+    animation-duration:2s;
+    animation-delay:3s;
+    animation-iteration-count: infinite;
+    background-image:url(../image/images\ \(1\).jpg);
+    border-radius: 5px;
+}
+    @keyframes change{
+        0%{/*background-color: blanchedalmond;*/ left:0;}
+        100%{/*background-color: beige;*/ left:1200px;  }
+    }
+.div2{
+    bottom:50px;
+    position:relative;
+    animation-name: change1;
+    animation-duration:2s;
+    animation-delay:6s;
+   animation-iteration-count: infinite;
+   background-image: url(../image/images\ \(2\).jpg);
+   border-radius: 5px;
+   bottom:70px;
+}
+       @keyframes change1{
+          0%{/*background-color: aquamarine; */right: 0;}
+          100%{/*background-color: black;*/right: 1200px;}
+       }
+.div3{
+    position:relative;
+    animation-name: change3;
+     animation-duration: 2s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+    background-image: url(../image/images\ \(3\).jpg);
+    border-radius: 5px;
+}
+    @keyframes change3{
+        0%{/*background-color: blanchedalmond;*/ left:0;}
+        100%{/*background-color: beige; */left:1200px;  }
+
+    }
+    .div4{
+        position:relative;
+        animation-name: change4;
+        animation-duration:2s;
+        animation-delay:12s;
+        animation-iteration-count:infinite;
+        background-image: url(../image/images\ \(4\).jpg);
+        border-radius: 5px;
+    }
+    @keyframes change4{
+        0%{/*background-color: antiquewhite;*/right:0px;}
+        100%{/*background-color: black;*/right:1200px;}
+    }
+    .div5{
+        position:relative;
+        animation-name:change5;
+        animation-duration: 2s; 
+        animation-delay:15s;
+        animation-iteration-count: infinite;
+        background-image: url(../image/images\ \(5\).jpg);
+        border-radius: 5px;
+        top:55px;
+
+    }
+    @keyframes change5{
+        0%{/*background-color: aquamarine;*/left:0;}
+        100%{/*background-color: blueviolet;*/left:1200px;}
+    }
+    .div6{
+        position: relative;
+        animation-name: change6;
+        animation-duration: 2s;
+        animation-delay:18s;
+        animation-iteration-count: infinite;
+        background-image: url(../image/images\ \(6\).jpg);
+        border-radius: 5px;
+        bottom: 5px;
+    }
+    @keyframes change6{
+        0%{/*background-color: blue;*/right:0; }
+        100%{/*background-color: aliceblue;*/right:1200px;}
+    }
+    .header{
+        text-align: center;
+        color:black;
+    }
+.span{
+        display: block;
+        width:120px;
+        height:10px;
+        color:black;
+    }
+    body{
+        background-color:rgb(227, 224, 224);
+    }
